@@ -21,5 +21,8 @@ if __name__ == '__main__':
 @app.route('/sum/<int:a>/<int:b>')
 def sum_nums(a, b):
     return jsonify({'result': a + b})
-#Add a very long comment line that exceeds the character limit to intentionally trigger a lint violation.Return to your Pull Request on GitHub and watch the check turn into a red cross. Take a screenshot here for your lab manual to show how the CI pipeline blocks faulty code.After taking your screenshot, remove the long line from app.py, save, and push the fix again:
+
+# Intended syntax error for testing CI failure
+invalid_syntax_test =
+
 

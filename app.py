@@ -18,4 +18,3 @@ def greet(name):
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
 
-# This is a very long comment line that goes way beyond one hundred characters to deliberately cause a flake8 syntax and style failure in our GitHub Actions CI pipeline.

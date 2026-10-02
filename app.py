@@ -22,7 +22,4 @@ if __name__ == '__main__':
 def sum_nums(a, b):
     return jsonify({'result': a + b})
 
-# Intended syntax error for testing CI failure
-invalid_syntax_test =
-
 
